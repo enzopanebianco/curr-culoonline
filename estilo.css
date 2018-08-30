@@ -1,0 +1,456 @@
+*{
+
+
+margin: 0;
+padding: 0;
+}
+.teto{
+    background-image: linear-gradient(to right,#afe4eb,#5a72ff); 
+    width: 100%;
+    height: 11px;
+   
+}
+.teto:hover{
+    background-image: linear-gradient(to left,#afe4eb,#5a72ff);
+}
+
+.banner1{
+    width: 100%;
+    
+}
+.banner1 img {
+    width: 83px;
+    height: 82px;
+    
+
+}
+
+.dados hr{
+    width: 3px;
+    height: 183px;
+    background-color: #000;
+}
+.banner1 h1 {
+    font-family: berlin sans fb light;
+    font-size: 32pt;
+    text-align: center;
+    transform: translateY(-70px);
+}
+
+.banner1 h2 {
+    font-family: berlin sans fb regular;
+    font-size: 21pt;
+    text-align: center;
+    transform: translateY(-70px);
+    color: #5a72ff;
+    
+}
+
+.dados{
+   
+     display: flex;
+    padding: 0.1em;
+    
+        
+    
+}
+.dadositens{
+   
+    padding: 0.5em
+}
+.barra{
+    background-color: rgb(0, 0, 0);
+    width: 3px;
+    height: 183px;
+}
+.dadositens h3{
+    font-family:segoe ui ;
+    text-align: center;
+    display: flex;
+    font-size: 18pt;
+}
+.dadositens p{
+    font-family: segoe ui;
+    font-size: 15pt;
+    
+    
+}
+.dadositens img{
+    width: 170px;
+    height: 170px;
+  
+}
+.fim{
+    background-image: linear-gradient(to right,#afe4eb,#5a72ff); ;
+    width: 101%;
+    height: 11px;
+}
+.fim:hover{
+    background-image: linear-gradient(to left,#afe4eb,#5a72ff);
+    
+}
+
+
+.banner2{
+    width:  100%;
+    height: 342px;
+    background-color:black;
+    display: flex;
+    padding: 0.2em;
+    justify-content: space-between;
+   
+}
+.banner22{
+    padding: 0.5em;
+    display: inline;
+    text-align: center;
+    padding: 4em ;
+}
+.banner22 h2{
+    font-family: segoe ui;
+    color: white;
+    font-size: 21pt;
+
+    
+}
+
+
+.banner22 p{
+    color: white;
+    font-family: segoe ui light;
+    font-size: 15pt;
+}
+
+
+.Tecnologias h2{
+    font-family: segoe ui light;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 100px;
+    transform: translateY(-80px);
+}
+.Tecnologias ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transform: translateY(-50px);
+    
+   
+}
+.Tecnologias ul li {
+    flex: 2;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.Tecnologias a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    padding: 1em 1em;
+    flex-direction: column;
+}
+.Tecnologias img{
+    width: 69px;
+    height: 62px;
+    
+}
+.meio{
+    background-image: linear-gradient(to right,#afe4eb,#5a72ff); 
+    width: 100%;
+    height: 11px;
+}
+.meio:hover{
+    background-image: linear-gradient(to left,#afe4eb,#5a72ff);
+}
+.projeto{
+     background:black;
+          
+         height: 350px;
+         width: 100%;
+        }
+.projeto h2{
+    font-size: 28pt;
+    font-family: segoe ui light;
+    text-align: center;
+    transform: translateY(30px);
+    color: white;
+}
+.projeto ul li {
+    flex: 2;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.projeto ul{
+    list-style-type: none;
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+.projeto img{
+    width: 180px;
+    height: 130px;
+    
+}
+.projeto img:hover{
+    box-shadow: 2px 2px 5px rgb(201, 199, 199);
+    width: 190px;
+    height: 140px;
+}
+.banner4 h2{
+    font-family:segoe ui light;
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    
+}
+.banner4{
+    background:#5a72ff ;
+   
+     
+    height: 150px;
+    width: 100%;
+}
+.banner4 ul{
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.banner4 ul li{
+    
+        flex: 1;
+        
+        text-align: center;
+}
+.banner4 ul a {
+    color: white;
+    text-decoration-line: none;
+    font-size: 24pt;
+    padding: 0em 2em;
+    font-family:  berlin sans fb ;
+    text-shadow: 1px 1px 1px #000;
+
+}
+.banner4 ul a:hover {
+    color: rgb(238, 255, 0);
+    
+}
+.chao{
+    background: rgb(36, 35, 35);
+    height: 40px;
+    width: 100%;
+
+}
+.chao p{
+    font-size: 8pt;
+    font-family: berlin sans fb;
+    color: #ffffff;
+    text-align: center;
+    transform: translateY(15px)
+}
+
+
+
+@media screen and (max-width:710px){
+    .dados hr{
+        display: none;
+    }
+    .dados{
+        flex-direction: column;
+        padding: 0;
+
+    }
+    .dadositens img{
+        margin-left: 170px;
+        height: 300px;
+        width: 300px;
+       
+
+    }
+    .barra{
+        display: none;
+    }
+    .Tecnologias ul {
+        text-align: center;
+        display: inline;
+    }
+     .Tecnologias ul li{
+        margin: 30px;
+       padding:0px 30px 0px 0px;
+        }
+    .Tecnologias img{
+        align-items: center;
+    }
+    .banner4{
+        height: 250px;
+    }
+    .banner4 ul{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .banner4 ul li{
+        padding: 10px;
+    }
+    .banner4 ul a{
+        padding: 0em 0.5em;
+        font-size: 21pt;
+    }
+}
+@media screen and (max-width:540px){
+    .banner1 h1{
+        font-size: 24pt;
+    }
+    .dadositens img{
+        margin-left: 120px;
+    }
+    .banner2{
+        display: inline-block;
+      
+    }
+    .projeto img{
+        width: 100px;
+        height: 70px;
+    }
+    .projeto img:hover{
+        width:150px;
+        height: 100px;
+    }
+   
+       
+       
+   
+}
+@media screen and (max-width:460px) {
+
+        .banner1{
+            margin-top: 30px;
+        }
+        .banner1 h1{
+            font-size: 21pt;
+          
+        }
+        .banner1 h2{
+            font-size: 15pt;
+        }
+        .banner1 img{
+           height: 60px;
+           width: 60px;
+
+            
+        }
+        .dadositens img{
+            height: 150px;
+            width: 150px;
+        }
+        .banner4{
+            height: 230px;
+        }
+        .banner4 ul {
+            height:180px;
+            display: inline;
+            
+        }
+        .banner4 ul a{
+            font-size: 18pt;
+        }
+        .banner4 h2{
+            font-size: 18pt;
+        }
+}
+@media screen and (max-width:345px){
+       
+        .banner1 h1{
+            font-size: 18pt;
+        }
+        .banner1 h2{
+            font-size: 12pt;
+        }
+        .banner1 img{
+            height: 50px;
+            width: 50px;
+
+        }
+        .dadositens img{
+            margin-left: 80px;
+        }
+        .dadositens h3{
+            font-size: 15pt;
+        }
+        .dadositens p{
+            font-size: 12pt;
+        }
+        .banner22 h2{
+            font-size: 18pt;
+        }
+        
+        .Tecnologias h2{
+            font-size: 18pt;
+
+        }
+        .Tecnologias ul{
+            flex-direction: column;
+        }
+        .Tecnologias img{
+            width: 60px;
+            height: 50px;
+        }
+        .Tecnologias a{
+            font-size: 15pt;
+            
+        }
+        .projeto h2{
+            font-size: 21pt;
+        }
+        .projeto img{
+            width: 80px;
+            height: 50px;
+        }
+        .projeto img:hover{
+            width:100px;
+            height: 70px;
+        }
+        .banner4 h2{
+            font-size: 21pt;
+        }
+}
+@media screen and (max-width:300px){
+      
+       
+        .dadositens img{
+            margin-left:60px;
+        }
+        .dadositens h3{
+            font-size: 13pt; 
+        }
+        .dadositens p{
+            font-size: 10pt;
+        }
+
+        .banner22 h2{
+            font-size: 18pt;
+        }
+        .banner22 p{
+            font-size: 12pt;
+        }
+        .Tecnologias img{
+            width: 37px;
+            height: 30px;
+        }
+        .projeto{
+            height: 250px;
+        }
+        .projeto img{
+            width: 70px;
+            height: 40px;
+        }
+        .projeto img:hover{
+            width:90px;
+            height: 60px;
+        }
+}
+        
